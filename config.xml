@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+				xmlns:gap   = "http://phonegap.com/ns/1.0"
+				id          = "uk.org.method.PaulBot"
+				versionCode = "10"
+				version     = "1.0.1">
+
+	<name>PaulBot</name>
+
+	<description>
+		PaulBot
+	</description>
+
+	<author href="http://www.method.org.uk/" email="apps@method.org.uk">
+		Method Design
+	</author>
+	
+	<preference name="orientation" value="portrait" /> 
+	
+	<preference name="target-device" value="universal" />
+	<preference name="fullscreen" value="true" />
+	<preference name="webviewbounce" value="false" />
+	<preference name="disable-cursor" value="true" />
+	<preference name="permissions" value="none"/>	
+	<preference name="show-splash-screen-spinner" value="true" />
+	<preference name="auto-hide-splash-screen" value="false" />
+	
+	<!-- iPhone icons -->
+	<icon src="Resources/icons/icon-57.png" gap:platform="ios" width="57" height="57" />
+	<icon src="Resources/icons/icon-72.png" gap:platform="ios" width="72" height="72" />
+	<icon src="Resources/icons/icon-114.png" gap:platform="ios" width="114" height="114" />
+	<!-- retina iPad support: PhoneGap 2.5.0+ only -->
+	<icon src="Resources/icons/icon-144.png" gap:platform="ios" width="144" height="144" />
+	<!-- android icons -->
+	<icon src="Resources/icons/icon-72.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="Resources/icons/icon-114.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="Resources/icons/icon-144.png" gap:platform="android" gap:density="xhdpi" />
+	<!-- BlackBerry icons -->
+	<icon src="Resources/icons/icon-72.png" gap:platform="blackberry" />
+	<icon src="Resources/icons/icon-72.png" gap:platform="blackberry" gap:state="hover"/>
+	
+	<!-- Build for...	 -->
+	<gap:platform name="ios" />
+	
+	<!-- Splash Screen -->
+	
+	<gap:splash src="Resources/splash/splash.png" />
+	
+
+	<gap:splash src="Resources/splash/ios/Default~iphone.png" gap:platform="ios" width="320" height="480" />
+	<gap:splash src="Resources/splash/ios/Default@2x~iphone.png" gap:platform="ios" width="640" height="960" />
+	<gap:splash src="Resources/splash/ios/Default_iphone5.png" gap:platform="ios" width="640" height="1136" />
+	<gap:splash src="Resources/splash/ios/Default-Landscape.png" gap:platform="ios" width="1024" height="748" />
+	<gap:splash src="Resources/splash/ios/Default-Portrait.png" gap:platform="ios" width="768" height="1004" />
+
+	<!-- retina iPad support: PhoneGap 2.5.0+ only -->
+	<gap:splash src="Resources/splash/ios/Default-Landscape_at_2x.png" gap:platform="ios" width="2048" height="1496" />
+	<gap:splash src="Resources/splash/ios/Default-Portrait_at_2x.png" gap:platform="ios" width="1536" height="2008" />
+	
+	<!-- database storage 
+	
+	<!-- domain feeds test -->
+	<access origin="http://www.purchasingauctions.com" />
+	<access origin="*.purchasingauctions.com" />
+	<access uri="http://www.purchasingauctions.com/" subdomains="true" />
+
+	<!-- plugins -->
+
+</widget>
